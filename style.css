@@ -1,0 +1,51 @@
+body {
+    background-image: url(./pokemonbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 16px;
+    display: none;
+}
+
+#characterInfo {
+    margin-top: 20px;
+}
+
+#characterInfo img {
+    max-width: 150px;
+}
+
+.linkahr a{
+    color: yellow;
+}

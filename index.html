@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search Pokemon</title>
+</head>
+<body>
+
+    <h2>WHO IS THAT POKEMON ?</h2>
+
+    <form id="searchForm">
+        <label for="pokemonName">Enter Pokemon name</label><br>
+        <input type="text" id="pokemonName" name="pokemonName">
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="errorMessage" style="display: none;">Pokemon name cannot be empty!</p>
+
+    <div id="pokemonInfo"></div>
+
+    <br><br><br><br><div class="linkahr"><a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_name"target="_blank">You can search pokemon name by this site</a></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
